@@ -1,0 +1,13 @@
+x = input("x:")
+# y = x+1
+print(x)
+# x = int(x)
+print(f"x:{int(x)},y:{int(x)+1}")
+print(type(x))
+x1 = int(x)
+print(type(x1))
+x2 = float(x)
+print(type(x2))
+x3 = bool(int(x))
+print(type(x3))
+print(x3)
